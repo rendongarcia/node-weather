@@ -1,0 +1,21 @@
+{
+    "name": "weather-basic-console-app",
+    "version": "0.0.1",
+    "description": "console app for getting weather info",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Miguel",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "inquirer": "^8.1.2",
+        "axios": "^0.27.2",
+        "dotenv": "^16.0.2"
+    }
+}
